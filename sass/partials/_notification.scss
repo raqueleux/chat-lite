@@ -1,0 +1,33 @@
+/*------------------------------------------------*/
+/*	Notification
+/*------------------------------------------------*/
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message h1 {
+  font-weight: bold;
+}
+
+.message a {
+  font-size: 1.25em;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+#notification_content {
+  font-size: 1.25em;
+}
+
+.message-alert {
+  border: 3px solid red;
+}
+
+.message-alert h1 {
+  color: red;
+}
+
+span#notification_content {
+  font-size: 1.5em;
+}

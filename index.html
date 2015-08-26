@@ -1,1 +1,28 @@
-Chatlite design files for all ASO brands
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Chat</title>
+    <script type="text/javascript" src="/scripts/lib/require.js" data-main="/scripts/app"></script>
+    <script type="text/javascript">
+        // Construct a ChatAPI URI that Matches this Domain
+        // Needed to prevent issues with Cross Domain Cookies
+        var hostname = window.location.hostname;
+        var hostname_regex = /chat\.(.*)/;
+        var hostname_match = hostname_regex.exec( hostname );
+        window.chat_api_url = window.location.protocol + '//chatapi.' + hostname_match[1]   + ':5100/chat';
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.raty.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+<div id="header"></div>
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <div id="content"></div>
+    </div>
+</div>
+<div id="footer"></div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<div class="site-inner container-fluid" id="chat_window">
+
+    <div class="row header-row">
+        <div class="col-md-6 text-left">
+            <h3>Welcome To Live Chat</h3>
+        </div>
+        <div class="col-md-6">
+            <div class="pull-right">
+                <button type="button" id="print_button" class="btn btn-sm btn-custom">
+                    <span class=""></span>
+                    <span>Print</span>
+                </button>
+                <span class="v-rule-divider" id='print_and_rate_button_divider'></span>
+                <button type="button" id="end_chat_button" class="btn btn-sm btn-red">
+                    <span class=""></span>
+                    <span>Rate And Exit</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <hr class="top-divider"/>
+            <div class="chat-window-inner">
+                <div class="table table-condensed" id="messages_container"></div>
+            </div>
+            <hr class="bottom-divider"/>
+        </div>
+    </div>
+    <div class="row" id="chat_controls">
+        <div class="col-md-6">
+            <div class="star-happiness-rating" id="happiness_rating"></div>
+<!--
+            <div class="chat-timer-outer">
+                <span>Chat Time:</span>
+                <span id="chat_timer"></span>
+            </div>
+-->
+        </div>
+        <div class="col-md-6 text-right">
+            <button type="button" id="sound_indicator_button" class="sound_on"></button>
+            <% if( brand.get('has_verification') ) { %>
+            <button type="button" id="verify_account_button" class="btn btn-xs btn-custom">
+                <span>Verify Account</span>
+            </button>
+            <% } %>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-10">
+            <textarea class="form-control" rows="8" id="message_input"></textarea>
+        </div>
+        <div class="col-md-2 chat-send-button">
+            <button type="button" class="btn btn-xl btn-custom" id="send_message_button">Send</button>
+        </div>
+    </div>
+
+</div>

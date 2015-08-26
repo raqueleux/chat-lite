@@ -1,0 +1,48 @@
+<div class="site-inner container-fluid kb-search" id="kb_search">
+    <div class="row header-row">
+        <div class="col-md-12 text-center">
+            <h1>Search Our Knowledge Base</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p>Based on what you wanted to discuss, we have found these relative articles in our Knowledge Base. Take a look through these helpful items and see if they can help you fix the issue!</p>
+            <p>If you can't fix the issue go ahead and click the Start Live Chat button below and we will assist you!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="input-group kb-search">
+                <input name="search_query" id="search_query" class="search-text form-control" />
+                <div class="input-group-btn">
+                    <button type="button" id="search_button" class="search-button btn-xl btn-custom">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div id="kb_search_results_container" class="search-results-container">
+                <hr class="top-divider"/>
+                <div id="no_kb_search_results" class="search-results-inner hidden">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>No results were found with that search.</h3>
+                            <h4>Please try different search terms.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div id="kb_search_results" class="search-results-inner hidden">
+                    <ul class="list-unstyled search-results-list" id="kb_search_results_list"></ul>
+                </div>
+                <hr class="bottom-divider"/>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <button type="button" class="center-block btn-xl btn-custom" id="start_chat_button">Start Chat</button>
+        </div>
+    </div>
+</div>

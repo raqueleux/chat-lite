@@ -1,0 +1,272 @@
+/* Scss Document */
+.site-wrapper {
+  background: #F7F8F3;
+  background: -moz-linear-gradient(#A7D4D8 0%, #cae5e8 27%, #d8ecee 50%, #e0f0e8 80%, #F7F8F3 100%);
+  background: -webkit-linear-gradient(#A7D4D8 0%, #cae5e8 27%, #d8ecee 50%, #e0f0e8 80%, #F7F8F3 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#A7D4D8), color-stop(0.27, #cae5e8), color-stop(0.5, #d8ecee), color-stop(0.8, #e0f0e8), to(#F7F8F3));
+  background: -o-linear-gradient(#A7D4D8 0%, #cae5e8 27%, #d8ecee 50%, #e0f0e8 80%, #F7F8F3 100%);
+  background: linear-gradient(#A7D4D8 0%, #cae5e8 27%, #d8ecee 50%, #e0f0e8 80%, #F7F8F3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A7D4D8', endColorstr='#F7F8F3',GradientType=0 ); }
+
+.site-inner {
+  padding: 20px 50px 20px;
+  border-radius: 4px;
+  border: 1px solid #f7d8bb;
+  background: #FDFAF4;
+  margin: 5% auto;
+  box-shadow: none; }
+
+h1.logo {
+  color: transparent;
+  width: 100%;
+  height: 115px;
+  background: url("https://asmallorange.com/images/emails/WHT_2-19/logo.png") -2px -18px no-repeat; }
+
+h1,
+h3 {
+  font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+  color: #fda12f; }
+
+h4#end_chat_modal_label.modal-title {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif; }
+
+h2.logo-subtext {
+  font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.75em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  color: #fda12f;
+  margin-top: 0;
+  text-align: center; }
+
+input, textarea, p {
+  font-family: "Lucida Bright", Georgia, serif !important; }
+
+input[type="text"] {
+  font-family: 'Lucida Bright', Georgia, serif;
+  height: 36px;
+  margin: 0;
+  padding: 15px 10px 16px;
+  line-height: 24px;
+  font-size: 16px;
+  border: 1px solid rgba(247, 148, 29, 0.39);
+  background-color: #fff; }
+
+textarea {
+  font-family: 'Lucida Bright', Georgia, serif;
+  margin: 0;
+  padding: 15px 10px 16px;
+  line-height: 24px;
+  font-size: 16px;
+  border: 1px solid rgba(247, 148, 29, 0.39);
+  background-color: #fff; }
+
+.form-control, .form-control:active {
+  border: 1px solid rgba(247, 148, 29, 0.39);
+  background-color: #fff; }
+
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+  border: none; }
+
+input[type="text"]:focus,
+textarea[type="text"]:focus,
+input#domain.form-control:focus,
+textarea#initial_question.form-control:focus,
+textarea#message_input.form-control:focus {
+  font-family: 'Lucida Bright', Georgia, serif;
+  border-color: #fda12f;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(253, 161, 47, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(253, 161, 47, 0.6); }
+
+select#department.form-control,
+select#language.form-control {
+  font-family: 'Lucida Bright', Georgia, serif; }
+
+select#department.form-control:focus,
+select#language.form-control:focus {
+  border-color: #fda12f;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(253, 161, 47, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(253, 161, 47, 0.6); }
+
+input#existing_customer_yes[type="radio"] {
+  border-color: #fda12f; }
+
+input#existing_customer_yes[type="radio"]:focus {
+  border-color: #fda12f; }
+
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
+  color: #272727; }
+
+.has-error .form-control {
+  border-color: #ffab42 !important; }
+
+.btn-custom {
+  background: #ffab42;
+  color: #fff;
+  padding: 10px 30px;
+  margin: 0 auto;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-size: 14px;
+  box-shadow: none;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 5px; }
+
+.btn-custom,
+.btn-red {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+
+.btn-custom:active,
+.btn-custom:hover {
+  background: #fda12f;
+  color: #F6F1E5;
+  box-shadow: none; }
+
+.btn-custom:focus,
+.btn-red:focus {
+  outline: none; }
+
+button {
+  border: none !important; }
+
+button#print_button.btn.btn-sm.btn-custom {
+  display: inline-block; }
+
+.btn-red {
+  color: #fff !important;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  background: #D95858;
+  font-size: 14px;
+  box-shadow: none;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 5px; }
+
+.btn-red:active,
+.btn-custom:hover {
+  background: #cf2f2f;
+  color: #F6F1E5;
+  box-shadow: none; }
+
+.has-success .form-control {
+  border-color: #ffab42 !important; }
+
+.has-success .form-control:focus {
+  border-color: #ffab42 !important;
+  outline: 0 !important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(253, 161, 47, 0.6) !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(253, 161, 47, 0.6) !important; }
+
+label.col-sm-3.control-label,
+label.col-sm-6.control-label,
+label.control-label,
+label.radio-inline,
+label.control-label {
+  color: #272727 !important;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif; }
+
+label.col-sm-3.control-label:active,
+label.col-sm-6.control-label:active,
+label.control-label:active,
+label.radio-inline:active,
+label.control-label:active {
+  color: #272727; }
+
+span#expected_wait_time {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif; }
+
+.progress-bar {
+  background-color: #ffab42; }
+
+.sound_on {
+  background: url(/img/aso-sound.png) -16px 0px no-repeat transparent; }
+
+.sound_off {
+  background: url(/img/aso-sound.png) 0px 0px no-repeat transparent; }
+
+hr.top-divider,
+hr.bottom-divider {
+  border-top: 2px solid #ffab42;
+  margin: 0; }
+
+div.chat-window-inner {
+  background-color: #fff;
+  border-right: 1px solid #ffab42;
+  border-left: 1px solid #ffab42;
+  padding: 0 10px; }
+
+.staff_message,
+span.sender_name.staff_message {
+  font-family: 'Lucida Bright', Georgia, serif;
+  color: #fda12f; }
+
+span.sender_name.customer_message,
+span.content,
+span.sender_name {
+  font-family: 'Lucida Bright', Georgia, serif; }
+
+span.time {
+  font-family: 'Lucida Bright', Georgia, serif;
+  font-size: 10px; }
+
+span.sender_name.customer_message {
+  color: #3b8997; }
+
+input#customer_name.form-control,
+textarea#customer_name.form-control {
+  font-family: 'Lucida Bright', Georgia, serif; }
+
+textarea#message_input.form-control:active,
+textarea#message_input.form-control:focus,
+.form-control:focus {
+  border-color: #ffab42;
+  outline: 0 !important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(253, 161, 47, 0.6) !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(253, 161, 47, 0.6) !important; }
+
+.form-control::-moz-placeholder {
+  font-family: 'Lucida Bright', Georgia, serif;
+  color: #999;
+  opacity: 1; }
+
+.form-control:-ms-input-placeholder {
+  color: #999; }
+
+.form-control::-webkit-input-placeholder {
+  color: #999; }
+
+.has-success .help-block, .has-success .control-label, .has-success .radio, .has-success .checkbox, .has-success .radio-inline, .has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label {
+  color: #272727; }
+
+.modal-content {
+  background-color: #FDFAF4; }
+
+/*# sourceMappingURL=aso.css.map */

@@ -1,0 +1,110 @@
+/* Scss Document */
+.site-wrapper {
+  background: #F7F8F3;
+  background: -moz-linear-gradient(#A7D4D8 0%, #cae5e8 27%, #d8ecee 50%, #e0f0e8 80%, #F7F8F3 100%);
+  background: -webkit-linear-gradient(#A7D4D8 0%, #cae5e8 27%, #d8ecee 50%, #e0f0e8 80%, #F7F8F3 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#A7D4D8), color-stop(0.27, #cae5e8), color-stop(0.5, #d8ecee), color-stop(0.8, #e0f0e8), to(#F7F8F3));
+  background: -o-linear-gradient(#A7D4D8 0%, #cae5e8 27%, #d8ecee 50%, #e0f0e8 80%, #F7F8F3 100%);
+  background: linear-gradient(#A7D4D8 0%, #cae5e8 27%, #d8ecee 50%, #e0f0e8 80%, #F7F8F3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A7D4D8', endColorstr='#F7F8F3',GradientType=0 ); }
+
+.site-inner {
+  padding: 0 50px 20px;
+  border-radius: 4px;
+  border: 1px solid #f7d8bb;
+  background: #FDFAF4;
+  margin: 5% auto;
+  box-shadow: none; }
+
+h1.logo {
+  color: transparent;
+  width: 100%;
+  height: 115px;
+  background: url("https://asmallorange.com/images/emails/WHT_2-19/logo.png") -2px -18px no-repeat; }
+
+h2.logo-subtext {
+  font-family: "Klinic Slab Light", serif;
+  font-size: 1.75em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+  color: #fda12f;
+  margin-top: 0;
+  text-align: center; }
+
+input[type="text"] {
+  height: 36px;
+  margin: 0;
+  padding: 15px 10px 16px;
+  line-height: 24px;
+  font-size: 16px;
+  border: 1px solid rgba(247, 148, 29, 0.39);
+  background-color: #fff; }
+
+textarea {
+  margin: 0;
+  padding: 15px 10px 16px;
+  line-height: 24px;
+  font-size: 16px;
+  border: 1px solid rgba(247, 148, 29, 0.39);
+  background-color: #fff; }
+
+.form-control {
+  border: 1px solid rgba(247, 148, 29, 0.39);
+  background-color: #fff; }
+
+input[type="text"]:focus,
+textarea[type="text"]:focus,
+input#domain.form-control:focus,
+textarea#initial_question.form-control:focus {
+  border-color: #fda12f;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(253, 161, 47, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(253, 161, 47, 0.6); }
+
+select#department.form-control:focus,
+select#language.form-control:focus {
+  border-color: #fda12f;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(253, 161, 47, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(253, 161, 47, 0.6); }
+
+input#existing_customer_yes[type="radio"] {
+  border-color: #fda12f; }
+
+input#existing_customer_yes[type="radio"]:focus {
+  border-color: #fda12f; }
+
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
+  color: #272727; }
+
+.has-error .form-control {
+  border-color: red; }
+
+.btn-custom {
+  background: #ffab42;
+  color: #fff;
+  display: block;
+  padding: 12px 34px;
+  margin: 0 auto;
+  font-family: "Brandon Grotesque Bold", sans-serif;
+  font-size: 16px;
+  box-shadow: none;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 5px; }
+
+/*# sourceMappingURL=aso.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;AAIA,OAAQ;EACJ,KAAK,EAAE,WAAW;EAClB,UAAU,EAAE,sDAAsD;;AAGtE,qBAAsB;EACpB,UAAU,EAAE,uDAAuD;;AAGrE,OAAQ;EACJ,UAAU,EAAE,0CAA0C;;AAG1D,OAAQ;EACJ,UAAU,EAAE,yCAAyC",
+"sources": ["../../sass/brand/hg.scss"],
+"names": [],
+"file": "hg.css"
+}

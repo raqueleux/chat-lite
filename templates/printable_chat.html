@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title><%= chat.get('brand').get('name') %> Chat Transcript</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="chat_transcript">
+    <div class="chat_information">
+        <span class="label">Chat ID:</span>
+        <span id="chat_id"><%= chat.get('id') %></span>
+        <span class="label">Initial Question:</span>
+        <span id="initial_question"><%= chat.get('initial_question') %></span>
+    </div>
+    <% _.each( chat.get('messages').models, function( message ) { %>
+        <% if( message.get('is_internal') ) { return; } %>
+
+        <div class="chat_message">
+            <span class="message_time"><%= message.get('created_datetime').local().format("LTS") %></span>
+            <span class="message_sender <%= message.get('is_staff') ? 'staff_message' : 'customer_message' %>"><%= message.get('sender_name') %></span>
+            <span class="message_content"><%= message.get('content') %></span>
+        </div>
+    <% }); %>
+</body>
+</html>

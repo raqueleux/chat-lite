@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;AAIA,OAAQ;EACJ,KAAK,EAAE,WAAW;EAClB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,uDAAuD",
+"sources": ["../../sass/brand/ideahost.scss"],
+"names": [],
+"file": "ideahost.css"
+}

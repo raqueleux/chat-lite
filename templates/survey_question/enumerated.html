@@ -1,0 +1,20 @@
+<div class="form-group row">
+    <div class="col-sm-12">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <label class="content control-label"></label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <% _.each( question.get('possible_answers'), function( possible_answer, index ) { %>
+                    <label for="question_id_<%= question.get('id') %>_answer_index_<%= index %>" class="radio-inline">
+                        <input type="radio" class='response' name="question_id_<%= question.get('id') %>"
+                        id="question_id_<%= question.get('id') %>_answer_index_<%= index %>"
+                        value="<%= possible_answer %>"><%= possible_answer %>
+                    </label>
+                <% }) %>
+            </div>
+        </div>
+    </div>
+</div>
