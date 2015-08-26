@@ -1,0 +1,8 @@
+/*-----------------------*/
+/* eHost Specific Styles */
+/*-----------------------*/
+h1.logo {
+  color: transparent;
+  background: url("/img/eHost.png") 30px 0px no-repeat transparent; }
+
+/*# sourceMappingURL=ehost.css.map */

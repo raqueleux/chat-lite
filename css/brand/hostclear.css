@@ -1,0 +1,8 @@
+/*---------------------------*/
+/* HostClear Specific Styles */
+/*---------------------------*/
+h1.logo {
+  color: transparent;
+  background: url("/img/HostClear.png") 30px 0px no-repeat transparent; }
+
+/*# sourceMappingURL=hostclear.css.map */

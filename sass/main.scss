@@ -1,0 +1,22 @@
+// Import Main
+@import "modules/mixins";
+
+// Import Base General Styles
+@import "partials/base";
+@import "partials/general";
+
+//Import Layout, Elements, Buttons
+@import "partials/layout";
+@import "partials/ui-elements";
+@import "partials/buttons";
+
+//@Import Notifications
+@import "partials/notification";
+
+// Import Pages
+@import "partials/pages/start_chat";
+@import "partials/pages/kb_search";
+@import "partials/pages/waiting_for_staff";
+@import "partials/pages/survey";
+@import "partials/pages/chat_window";
+@import "partials/pages/printable_chat";

@@ -1,0 +1,34 @@
+// ------------------------------------------------ //
+//	Base
+// ------------------------------------------------ //
+
+// general colors
+$body-bg-color: #fff;
+$body-accent-color: #053A6B;
+$body-link-color: #1F587D;
+
+// font
+$base-font-family: Gotham-Rounded;
+$secondary-font-family: "Open Sans", sans-serif;
+$base-font-color-dark: #696565;
+$base-font-color-light: #fff;
+
+// sign, button, link colors
+$color-default: #919191;
+$color-primary: #1688ae;
+$color-info: #59b7de;
+$color-danger: #ef2020;
+$color-warning: #ff9800;
+$color-success: #7bae16;
+$color-link: darken($color-primary, 8%);
+$color-link-hover: lighten($color-primary, 5%);
+
+// custom colors
+$color-blue: #1D92AF;
+$color-green: #859419;
+
+// media queries breakpoint
+$break-xsmall: 480px;
+$break-small: 768px;
+$break-medium: 992px;
+$break-large: 1200px;

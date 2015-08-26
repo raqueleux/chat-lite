@@ -1,0 +1,98 @@
+<style>
+*{
+	padding: 0; margin: 0;
+}
+#clouds {
+height: 300px;	
+background: url(clouds.jpg) top center repeat-x;
+}
+
+#swamp {
+	position: fixed;
+	bottom: 0px;
+	height: 220px;
+	width: 100%;
+	background: url(swamp_bg.png) repeat-x top center;
+}
+
+#rocks_left {
+	position: absolute;
+	height: 78px; width: 105px;
+	left: 3px;
+	bottom: 16px;
+	background: url(rocks_left.png) top center repeat-x;
+}
+
+#swamp_grass {
+	position: absolute;
+	top: -13px;
+	height: 17px;
+	width: 100%;
+	background: url(swamp_grass.png) center repeat-x;
+}
+
+#wheat_grass_right {
+	background: url("wheat_grass.png") no-repeat center center transparent;
+	height: 90px;
+	position: absolute;
+	right: -9px;
+	top: -87px;
+	width: 37px;
+	z-index: -1;
+
+}
+#leafy_plant_right {
+	background: url("leafy_plant.png") no-repeat center center transparent;
+	height: 39px;
+	position: absolute;
+	right: -1px;
+	top: -35px;
+	width: 64px;
+}
+
+#waiting_image {
+	height: 500px;
+	position: absolute;
+	bottom: 60px;
+	width: 100%;
+	background: url("waiting_sherlock_snappy.png") no-repeat bottom center transparent;
+	z-index: 11;
+}
+
+#waiting_image.helpdesk_snappy {
+	background-image: url(waiting_helpdesk_snappy.png);
+}
+
+#waiting_image.doctor_snappy {
+	background-image: url(waiting_doctor_snappy.png);
+}
+
+#waiting_image.lifeguard_snappy {
+	background-image: url(waiting_lifeguard_snappy.png);
+}
+
+#waiting_image.eating_competition {
+	background-image: url(waiting_eating_competition.png);
+}
+
+#waiting_image.handyman_snappy {
+	background-image: url(waiting_handyman_snappy.png);
+}
+
+#waiting_image.mechanic_snappy {
+	background-image: url(waiting_mechanic_snappy.png);
+}
+	
+</style>
+
+<div id="clouds"></div>
+
+<div id="waiting_image" class="mechanic_snappy"></div>
+
+<div id="swamp">
+	<div id="swamp_grass"></div>
+	<div id="rocks_left"></div>
+	<div class="dragonfly"></div>
+	<div id="wheat_grass_right"></div>
+	<div id="leafy_plant_right"></div>
+</div>

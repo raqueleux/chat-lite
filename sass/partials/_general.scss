@@ -1,0 +1,56 @@
+/*------------------------------------------------*/
+/*	General Styles
+/*------------------------------------------------*/
+
+@font-face {
+  font-family: Gotham-Rounded;
+  font-weight: normal;
+  src: url('../../fonts/GothamHTF-Book.otf');
+}
+
+@font-face {
+  font-family: Gotham-Rounded;
+  font-weight: bold;
+  src: url('../../fonts/GothamRnd-Bold.otf');
+}
+
+@font-face {
+  font-family: Gotham-Rounded;
+  font-weight: lighter;
+  src: url('../../fonts/GothamHTF-XLight.otf');
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: $base-font-family;
+  color: $base-font-color-dark;
+  font-size: 13px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.header-row {
+  margin-bottom: 20px;
+}
+
+.top-divider {
+  border-top: 2px solid #cecece;
+  margin: 10px -10px 0px -10px;
+}
+
+.bottom-divider {
+  border-top: 2px solid #cecece;
+  margin: 0px -10px;
+}
+
+.modal-content {
+  background-color: #ebebeb;
+}
+
+.modal-content.content {
+  padding: 0px;
+}

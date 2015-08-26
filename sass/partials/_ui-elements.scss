@@ -1,0 +1,17 @@
+/*------------------------------------------------*/
+/*	UI Elements
+/*------------------------------------------------*/
+
+a { cursor: pointer; }
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus { outline: 5px auto #595959; }
+
+textarea {
+  resize: none;
+}
+
+textarea,
+input, { font-family: Helvetica, Arial, sans-serif; }

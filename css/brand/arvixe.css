@@ -1,0 +1,88 @@
+/* Scss Document */
+.site-wrapper {
+  background: #77AAD0;
+  background: -moz-linear-gradient(#77AAD0 0%, #4F89B6 27%, #457ca6 50%, #024C83 80%, #014C83 100%);
+  background: -webkit-linear-gradient(#77AAD0 0%, #4F89B6 27%, #457ca6 50%, #024C83 80%, #014C83 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#77AAD0), color-stop(0.27, #4F89B6), color-stop(0.5, #457ca6), color-stop(0.8, #024C83), to(#014C83));
+  background: -o-linear-gradient(#77AAD0 0%, #4F89B6 27%, #457ca6 50%, #024C83 80%, #014C83 100%);
+  background: linear-gradient(#77AAD0 0%, #4F89B6 27%, #457ca6 50%, #024C83 80%, #014C83 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77AAD0', endColorstr='#F7F8F3',GradientType=0 ); }
+
+.site-inner {
+  padding: 20px 50px 20px;
+  border-radius: 4px;
+  border: 1px solid #FDFAF4;
+  background: #FDFAF4;
+  margin: 5% auto;
+  box-shadow: none; }
+
+h1.logo {
+  color: transparent;
+  width: 100%;
+  height: 115px;
+  background: url("http://www.arvixe.com/images/logo_hosting.png") 0 -18px no-repeat; }
+
+h1,
+h3 {
+  color: #616161; }
+
+h2.logo-subtext {
+  font-family: Verdana,Arial;
+  font-size: 2em;
+  font-weight: bold;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  color: #1c83ae;
+  margin-top: 0;
+  text-align: center;
+  letter-spacing: -.05em; }
+
+.btn-custom {
+  color: #fff;
+  text-shadow: 1px 1px 1px #54694a;
+  -moz-text-shadow: 1px 1px 1px #54694a;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: none;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  -moz-box-shadow: 1px 1px #999;
+  -webkit-box-shadow: 1px 1px #999;
+  box-shadow: 1px 1px #999;
+  background: #b1db2f;
+  background-image: -moz-linear-gradient(top, #b1db2f 0%, #759a08 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b1db2f), color-stop(100%, #759a08));
+  background-image: -webkit-linear-gradient(top, #b1db2f 0%, #759a08 100%);
+  background-image: -o-linear-gradient(top, #b1db2f 0%, #759a08 100%);
+  background-image: -ms-linear-gradient(top, #b1db2f 0%, #759a08 100%);
+  background-image: linear-gradient(to bottom, #b1db2f 0%, #759a08 100%); }
+
+.btn-custom,
+.btn-red {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+
+.btn-custom:active,
+.btn-custom:hover {
+  background: #616161;
+  color: #F6F1E5;
+  box-shadow: none; }
+
+.btn-custom:focus,
+.btn-red:focus {
+  outline: none; }
+
+button {
+  border: none !important; }
+
+button#print_button.btn.btn-sm.btn-custom {
+  display: inline-block; }
+
+.btn-xl {
+  padding: 11px 22px 7px; }
+
+/*# sourceMappingURL=arvixe.css.map */

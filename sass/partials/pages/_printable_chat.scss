@@ -1,0 +1,26 @@
+/*------------------------------------------------*/
+/*	Printable Chat
+/*------------------------------------------------*/
+.message_time {
+  float: left;
+  padding-right: 3px;
+}
+/*
+.message_time:before {
+	content: '(';
+}
+.message_time:after {
+	content: ') ';
+}
+*/
+.message_sender {
+  padding-right: 4px;
+}
+
+.chat_message.staff .message_sender {
+  color: red;
+}
+
+.chat_message.customer .message_sender {
+  color: blue;
+}

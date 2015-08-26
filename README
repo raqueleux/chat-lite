@@ -1,0 +1,3 @@
+- Customer-facing chat frontend interface
+- Written in PHP and JavaScript
+- Talks to chatlite-api backend

@@ -1,0 +1,9 @@
+/*---------------------------*/
+/* Idea Host Specific Styles */
+/*---------------------------*/
+h1.logo {
+  color: transparent;
+  height: 47px;
+  background: url("/img/Ideahost.png") 30px 0px no-repeat transparent; }
+
+/*# sourceMappingURL=ideahost.css.map */
